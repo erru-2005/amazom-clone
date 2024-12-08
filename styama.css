@@ -1,0 +1,339 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: arial;
+}
+.border{
+    border:1.25px solid transparent;
+   
+}
+.border:hover{
+    border: 1.25px solid white;
+   
+
+}
+
+
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+   justify-content: space-evenly;
+    align-items: center;
+    
+}
+.logo_nav
+{
+    height:40px;
+    width:100px;
+}
+.logo{
+        height:40px;
+        width:100px;
+        background-image: url("ama-logo.jpg");
+        background-size: cover;
+
+    }
+.nav_loc{
+    padding:2px;
+}
+
+.loc{
+    display:flex;
+    
+}
+.loc1{
+    margin-left: 18px;
+    color:#cccccc;
+    font-size:0.85rem;
+}
+.loc2{
+    font-size:1rem;
+    margin-left:2px;
+}
+/*search bar*/
+.nav-search{
+    display:flex;
+    height:40px;
+    width:620px;
+    background-color: pink;
+    border-radius:5px;
+    border:2px solid transparent;
+}
+.nav-search:hover{
+    border:2px solid rgba(188, 127, 14,1);
+}
+.select{
+    display:flex;
+    align-self: center;
+    height:40px;
+    width:50px;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    background-color: #f3f3f3;
+}
+
+
+.search{
+    height:40px;
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.fa-magnifying-glass{
+    color:black;
+    font-size: 1rem;
+
+}
+.s-icon{
+        height:40px;
+        width:60px;
+        background-color: rgb(214, 100, 19);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        border:none;
+       
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px;
+}
+.nav-lang{
+    display:flex;
+}
+.lang-select{
+    background-color: #0f1111;
+    color: white;
+    border:none;
+    font-size:1rem;
+}
+.lang-pic{
+    height:16px;
+    width:21px;
+    background-image: url("EN.jpg");
+    background-size: cover;
+    margin: 3px 0px 0px 0px;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    background-color: #0f1111;
+    color:white;
+    
+    font-size: 0.85rem;
+    font-weight:700;
+}
+.nav-cart i {
+    font-size: 1.85rem;
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+}
+.panel-offer{
+    display: flex;
+    width:75.5%;
+}
+.panel-offer p {
+    margin-left:15px;
+    font-size: 0.85rem;
+    padding: 5px;
+}
+.panel-menu{
+    font-weight:700;
+    padding: 3px;
+}
+.panel-ele{
+    padding: 2px;
+}
+.hero-image{
+    display:flex;
+}
+
+ .fa-chevron-left{
+    position:absolute;
+    top:180px;
+    left:50px;
+    font-size: 2rem;
+   
+}
+.fa-chevron-right{
+   position: absolute;
+    top:180px;
+   
+    font-size: 2rem;
+    display:flex;
+    justify-content: flex-end;
+    right:50px;
+} 
+
+.shopping{
+   
+    position:absolute;
+
+    top: 265px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+body{
+    background-color:#e2e7e6;
+
+}
+
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    margin-top: 1rem;
+}
+.box:hover{
+    transform: scale(1.03);
+}
+.shopping h2{
+    margin:4px 4px 4px 17px;
+    color:#0f1111;
+}
+.shop-img{
+    height: 300px;
+    width:275px;
+    background-size: cover;
+    position: relative;
+    left: 17px;
+    top: 5px;
+}
+.shopping p{
+    font-size: 0.55rem;
+    text-decoration: none;
+    color: #007185;
+    position: relative;
+    top: 28px;
+    left:17px;
+
+} 
+.shopping p:hover{
+    color: orange;
+}
+.space{
+    height:1019px;
+    width: 100%;
+}
+.back{
+    height:50px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.65rem;
+    margin-top: 15px;
+}
+.foot-panel2{
+    height: 400px;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    color:#dddddd;
+  
+    justify-content: space-evenly;
+}
+.know{
+    margin-top: 100px;
+}
+ul{
+    list-style-type: none;
+    font-size: 0.85rem;
+} 
+.foot-panel2 p{
+    font-weight: 800;
+}
+.foot-panel3{
+    height: 100px;
+    width: 100%;
+    background-color: #232f3e;
+    border-top: 1.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-logo{
+    height: 30px;
+    width:75px;
+    background-image: url("ama-logo.jpg");
+    background-size: cover;
+}
+.foot-lang{
+    border: 1.5px solid transparent;
+    background-color: #232f3e;
+    border: 1px solid lightcyan;
+    margin-left: 100px; 
+    height: 30px;
+}
+.foot-lang select{
+    border: none;
+    background-color: #232f3e;
+    font-size: 0.65rem;
+    color: white;
+}
+.flag{
+    height: 12px;
+    width: 17px;
+    background-image: url("indian.png");
+    background-size: cover;
+    margin: 0px 14px; 
+    
+}
+.india{
+    display: flex;
+    height: 30px;
+    width: 90px;
+    margin-left: 6px;
+    border: 1px solid lightcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.india p{
+    font-size: 0.65rem;
+    color: white;
+}
+.foot-lang i{
+        color: rgb(111, 106, 106);
+        margin: 6px 0px 0px 3px ;
+        font-size: 0.75rem;
+}
+.foot-panel4{
+    height: 75px;
+    width: 100%;
+    background-color: #131a22;
+   
+    
+    
+}
+.foot-panel4 a{
+    padding-left: 7px;
+    color: #dddddd;
+    font-size: 0.55rem;
+}
+.foot-panel4 ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.rule{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
